@@ -1,0 +1,335 @@
+body {
+    font-family: 'Cairo', sans-serif !important;
+}
+
+/**** Start overriding Bootstrap ****/
+
+/* Start Main Navbar */
+
+.navbar {
+    min-height: 70px
+}
+
+/*Active link*/
+
+.navbar-inverse .navbar-nav > .active > a,
+.navbar-inverse .navbar-nav > .active > a:hover,
+.navbar-inverse .navbar-nav > .active > a:focus {
+    background-color: #f8be00;
+} 
+
+.navbar-inverse .navbar-toggle:hover,
+.navbar-inverse .navbar-toggle:focus {
+    background: none;
+}
+
+/*Normal link*/
+
+.navbar-inverse .navbar-nav > li > a {
+    color: #FFF !important;
+    padding-bottom: 25px;
+    padding-top: 25px;
+    font-size: 16px;
+    overflow: hidden;
+    position: relative; 
+}
+
+/*Brand Name*/
+
+.navbar-inverse .navbar-brand {
+    margin-right:60px;
+    padding: 15px 4px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    color: #FFF;
+}
+
+.navbar-inverse .navbar-toggle{
+    border: none;
+    color: #f8be00
+}
+
+.navbar-inverse .navbar-toggle .icon-bar {
+    width: 35px;
+    height: 3px;
+    background-color: #f8be00;
+}
+
+.logoBorder {
+    border: 2.5px solid #FFF;
+    border-radius: 3px;
+    width: fit-content;
+    float: right;
+    line-height: 5px;
+    height: 40px;
+    font-size: small;
+    font-weight: bold;
+    color: white;
+    text-shadow: 0 0 black;
+}
+
+.navbar-toggle{
+    float: left;
+}
+
+.marginTop{
+    margin: 10px;
+}
+
+.marginSides{
+    margin: 0px 3% 0 3%;
+}
+
+.titleContainer {
+    top: 162px;
+    left: 66%;
+    transform: translateX(-66%);
+    position: absolute;
+    text-align: right;
+    
+}
+
+.titleContainer .welcomeDiv {
+    font-size: 100px;
+    color: #f8be00;
+}
+
+.titleContainer .titleDiv {
+    color: #FFF;
+    font-size: 30px;
+    min-width: max-content;
+}
+
+.background-image {
+    background: url('../images/navbar.png') no-repeat center center fixed;
+    min-height: 500px;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover;
+}
+
+/* End main navbar */
+
+/* Start Competitions Section */
+
+.current-competitions {
+    padding-top: 20px;
+}
+
+.current-competitions h1 {
+    font-weight: bold;
+    padding-bottom: 20px;
+    font-size: 25px;
+    line-height: 2em
+}
+
+.current-competitions h1 span {
+    text-decoration: underline;
+    text-decoration-style: wavy;
+}
+
+.current-competitions .competition {
+    background-color: #FFF;
+    padding: 10px; 
+    margin-bottom: 40px;
+    background-color: #f8f8f8
+}
+
+.current-competitions .over-text .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #FFF;
+    font-weight:bold;
+    line-height: 1.5em;
+    font-size: 30px
+}   
+
+.current-competitions .competition img {
+    max-width:300px;
+    max-height:400px;
+    width:100%;
+    -webkit-box-shadow: 5px 13px 20px #828282;
+    -moz-box-shadow: 5px 13px 20px #828282;
+    -o-box-shadow: 5px 13px 20px #828282;
+    box-shadow: 5px 13px 20px #828282
+}    
+    
+/* End Competitions Section */
+
+
+/* Start timeline Sections */
+
+.cd-horizontal-timeline h1 {
+    font-weight: bold;
+    margin-bottom: 40px;
+    font-size: 25px
+}
+
+.cd-horizontal-timeline h1 span {
+    text-decoration: underline;
+    text-decoration-style: wavy;
+}
+
+/*End timeline Sections */
+
+/* Start Winners Section */
+
+.winners {
+    padding-bottom: 40px
+}
+
+.winners h1 {
+    margin-bottom: 60px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.winners h1 span {
+    text-decoration: underline;
+    text-decoration-style: wavy;
+}
+.winner-background .img-size {
+    width: 100%;
+    height: 320px;
+}
+
+.winner-background .max-height-img  {
+    max-width: 60%
+}
+
+.winner-background .max-height-img .single-img {
+    max-height: 150px;
+    width: fit-content;
+}
+
+.winner-background .max-height-img .img-section{
+    max-height: 240px;
+}
+
+.winner-background .img-caption {
+    background-color: #000;
+    color:#FFF;
+    padding: 20px;
+}
+
+.carousel-inner{
+    max-height: 450px;
+}
+
+
+/* End Winners Section */
+
+/*Start Footer Section */
+
+.footer {
+    background-color: #540c00;
+    color: #FFF;
+    padding-top: 10px;
+}
+
+.footer h3 {
+    color: #0895D1;
+    letter-spacing: 1px;
+    margin: 30px 0 20px
+}
+
+.footer .form-inline {
+    margin-top: 20px;
+}
+
+.footer .btn-form {
+    border-radius: 0;
+    padding: 8px 17px;
+    border: 1px solid #FFF;
+    display: inline-block;
+    float: right;
+    background-color: #540c00;
+}
+
+.footer .form-inline .form-control {
+    float: right;
+    border-radius: 0;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    width: 261px;
+    display: inline;
+    direction: rtl;
+}
+
+.footer .social-list {
+    margin-left: 121px;
+    padding-top: 5px;
+    float:right;
+    padding-right: 50px
+}
+
+.footer .social-links-footer {
+    overflow: hidden;
+    margin: 20px 0 10px;
+}
+
+.footer .social-links-footer p {
+    direction:rtl;
+    text-align:right;
+    padding-bottom: 15px;
+}
+
+
+.footer .social-list li {
+    float: left;
+    margin-right: 4px;
+    opacity: .6;
+    filter: alpha(opacity=60);
+    -webkit-transition: all .6s ease-in-out;
+    -moz-transition: all .6s ease-in-out;
+    -o-transition: all .6s ease-in-out;
+    transition: all .6s ease-in-out
+}
+
+.footer .social-list li:hover {
+    opacity: 1
+}
+
+.footer .size {
+    width: 150px;
+    height: 100px
+}
+
+.footer .quick-links {
+    text-align: center;
+}
+
+.footer .quick-links a {
+    text-align: right;
+    direction:rtl;
+    text-decoration: underline;
+    color: #FFF
+}
+
+.footer .quick-links > a:hover {text-decoration: underline; color: #FFF}
+
+.footer .copyright {
+    color: #FFF;
+    padding: 15px 0;
+    margin-top: 30px;
+    padding-bottom: 20px;
+    font-size: 15px;
+    line-height:2em;   
+}
+
+
+.footer .logo-footer{
+
+    border: 4px solid white;
+    padding: 21%;
+    width: 100%;
+    float: right;
+    color: white;
+    text-align: center;
+    font-size: 50px;
+}
+
+/*End Footer Section */
